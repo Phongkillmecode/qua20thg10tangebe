@@ -211,7 +211,7 @@ canvas{position:fixed;inset:0;width:100%;height:100%;display:block;pointer-event
     else{do{i=Math.floor(Math.random()*wishes.length)}while(wishes.length>1&&i===lastWish)}
     lastWish=i;wishEl.textContent=wishes[i];wishEl.classList.add('show');
     clearTimeout(hideT);
-    hideT=setTimeout(function(){wishEl.classList.remove('show')},4200);
+    hideT=setTimeout(function(){wishEl.classList.remove('show')},8400);
   }
 
   var last=performance.now();
