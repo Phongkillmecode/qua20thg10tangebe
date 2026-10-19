@@ -1,0 +1,4 @@
+{
+  "buildCommand": "node gen-music-list.js",
+  "outputDirectory": "."
+}
